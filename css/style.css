@@ -4,6 +4,32 @@
    box-sizing: border-box;
  }
 
+ body {
+  font-family: 'Montserrat', sans-serif;
+ }
+
+  /* ------- Main Section -------  */
+ .main {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #F5F7FA;
+  width: 1200px;
+  margin: 0 auto;
+ }
+
+  /* ------- Main Content -------  */
+.main-content {
+  background-color: #fff;
+}
+
+
+  /* -------  Sidebar  ------- */
+.sidebar{
+  background-color: #1E2939;
+  color: #FFFFFF;
+}
+
  img {
    width: 370px;
  }
+
