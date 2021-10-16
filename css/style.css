@@ -1,6 +1,6 @@
  * {
-   /* padding: 0;
-   margin: 0; */
+   padding: 0;
+   margin: 0;
    box-sizing: border-box;
  }
 
@@ -26,10 +26,71 @@
   /* -------  Sidebar  ------- */
 .sidebar{
   background-color: #1E2939;
+  width: 370px;
   color: #FFFFFF;
+  padding-top: 40px;
 }
 
- img {
-   width: 370px;
- }
+.sidebar img {
+  width: 370px;
+  margin-bottom: 50px;
+}
+
+.sidebar-lists {
+  padding-left: 40px;
+}
+
+.sidebar-title {
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 8px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 18px;
+}
+
+.sidebar li, .contacts-list {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+
+.sidebar li::before {
+  content: "•";  
+  color: #FB6D3A; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 20px; 
+  margin-left: -16px; 
+}
+
+.contacts {
+  margin-bottom: 48px;
+}
+
+.contacts span {
+  margin-right: 12px;
+}
+.contacts a {
+  color: #FFFFFF;
+  opacity: 50%;
+}
+
+.contacts a:hover {
+  color: #4dafd6;
+  opacity: 100%;
+}
+
+.contacts p:first-child a {
+  text-decoration: none;
+}
+
+.skills{
+  margin-bottom: 44px;
+}
+
+
+
 
