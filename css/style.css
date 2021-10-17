@@ -25,6 +25,9 @@
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   padding: 105px 90px;
 }
+.about {
+  margin-bottom: 40px;
+}
 .about-title {
   font-size: 14px;
   line-height: 17px;
@@ -41,8 +44,30 @@
   width: 400px;
   font-size: 14px;
   line-height: 24px;
-  margin-bottom: 40px;
   color: #595959;
+}
+
+.title {
+  font-size: 22px;
+  line-height: 27px; 
+  margin-bottom: 10px;
+}
+
+.projects li {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.project, .project-link  {
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.project-bold {
+  font-weight: bold;
+  color: #000000;
 }
 
   /* -------  Sidebar  ------- */
