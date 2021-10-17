@@ -52,6 +52,14 @@
   line-height: 27px; 
   margin-bottom: 10px;
 }
+/* Projects */
+.projects {
+  margin-bottom: 50px;
+}
+.projects-list {
+  margin-left: 18px;
+}
+
 
 .projects li {
   font-weight: bold;
@@ -60,14 +68,79 @@
   color: #000000;
 }
 .project, .project-link  {
+  font-weight: normal;
+  font-style: normal;
   font-size: 14px;
   line-height: 24px;
   color: #595959;
 }
 
+.project-link {
+  margin-left: 10px;
+} 
+
 .project-bold {
-  font-weight: bold;
   color: #000000;
+  font-size: 14px;
+  line-height: 24px;
+}
+/* Work */
+.work {
+  margin-bottom: 24px;
+}
+
+.work-possition {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.firm {
+  color: #FB6D3A;
+}
+
+.work-period {
+  font-size: 12px;
+  line-height: 15px;
+  color: #A8A8A8;
+  margin-bottom: 8px;
+}
+
+.work-line {
+  color: #000000;
+}
+
+.work-lists {
+  list-style: none;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  font-weight: normal; 
+  padding-bottom: 18px;
+}
+.work-lists li::before {
+  content: "•";  
+  font-weight: bold; 
+  display: inline-block; 
+  width: 15px; 
+}
+
+/* <!-- Education --> */
+.university {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FB6D3A;
+  margin-bottom: 10px;
+}
+
+.degree {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 12px;
 }
 
   /* -------  Sidebar  ------- */
@@ -83,6 +156,9 @@
 }
 .sidebar-lists {
   padding-left: 40px;
+}
+.tech-list{
+  margin-bottom: 42px;
 }
 .sidebar-title {
   font-size: 22px;
@@ -123,9 +199,8 @@
 .contacts p:first-child a {
   text-decoration: none;
 }
-.skills{
-  margin-bottom: 44px;
-}
+
+
 
 
 
